@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="uft-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido Cakelotl</title>
+    <link rel="stylesheet" href="./Estilo_pasteleria_cakelotl.css">
+</head>
+<body>
+    <div class="main">
+    <img src="./assets/img/Logopasteleria.png" alt="pasteleria" width="250px">
+    <h1 class="titulos">Realiza tu AjoloPedido</h1>
+    <P class="p">En nuestra pasteleria no solo se ve rico sabe Delisioso UwU</P>
+    <hr>
+
+    <a href="./Pasteleria_Cakelotl.html">
+        <input class="boton" type="button" value="Regresar al Menú">
+        </a>
+    <a href="./blog_Cakelotl.html">
+        <input class="boton" type="button" value="blog Cakelotl">
+         </a>
+    <h2 class="titulos">Llena en AjoloFormulario Y disfruta de los pastelitos que Cakelotl te ofrece :3</h2>
+    <br>
+    <!-- Datos personales -->
+    <form action="pedido.js">
+        <label for="nombre">Escribe tu nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br><br>
+        <label for="telefono">Escribe tu numero de telefono</label><br>
+        <input type="tel" id="telefono" name="telefono" maxlength="10" placeholder="Numero">
+        <br><br>
+        <label for="direccion">Escribe tu direccion</label><br>
+        <input type="text" id="direccion" name="direccion" placeholder="Direccion">
+        <hr>
+    <!-- pasteles individuales -->
+    <p class="p">¿Qué AjoloCake vas a llevar?</p>
+    <input type="checkbox" id="rosa" name="rosa" value="rosa">
+    <label for="rosa">AjoloCake rosa</label>
+    <input type="number" id="rosa" name="rosa" maxlength="2"><br>
+
+    <input type="checkbox" id="amarillo" name="amarillo" value="amarillo">
+    <label for="amarillo">AjoloCake amarillo</label>
+    <input type="number" id="amarillo" name="amarillo" maxlength="2"><br>
+
+    <input type="checkbox" id="feliz" name="feliz" value="feliz">
+    <label for="feliz">Ajolote feliz</label>
+    <input type="number" id="feliz" name="feliz" maxlength="2"><br>
+
+    <input type="checkbox" id="animos" name="animos" value="animos">
+    <label for="animos">Animos de ajolote</label>
+    <input type="number" id="animos" name="animos" maxlength="2"><br>
+
+    <input type="checkbox" id="salvaje" name="salvaje" value="salvaje">
+    <label for="salvaje">Ajolote salvaje</label>
+    <input type="number" id="salvaje" name="salvaje" maxlength="2"><br>
+
+    <input type="checkbox" id="supremo" name="supremo" value="supremo">
+    <label for="supremo">Ajolote supremo</label>
+    <input type="number" id="supremo" name="supremo" maxlength="2"><br>
+
+    <input type="checkbox" id="Besos" name="Besos" value="Besos">
+    <label for="Besos">Besos de ajolote</label>
+    <input type="number" id="Besos" name="Besos" maxlength="2"><br><br>
+
+    <!-- bebidas indibiduales -->
+    <p class="p">¿Qué AjoloBebida vas a llevar?</p>
+    <input type="checkbox" id="minecraft" name="minecraft" value="minecraft">
+    <label for="minecraft">Ajolote minecraft</label>
+    <input type="number" id="minecraft" name="minecraft" maxlength="2"><br>
+
+    <input type="checkbox" id="Ajolotito" name="Ajolotito" value="Ajolotito">
+    <label for="Ajolotito">Ajolotito</label>
+    <input type="number" id="Ajolotito" name="Ajolotito" maxlength="2"><br>
+
+    <input type="checkbox" id="Patita" name="Patita" value="Patita">
+    <label for="Patita">Patita de ajolote</label>
+    <input type="number" id="Patita" name="Patita" maxlength="2"><br>
+
+    <input type="checkbox" id="Catarata" name="Catarata" value="Catarata">
+    <label for="">Catarata de ajolote</label>
+    <input type="number" id="Catarata" name="Catarata" maxlength="2"><br><br>
+
+    <!-- AjoloCombos -->
+    <p class="p">¿Qué AjoloCombo vas a llevar?</p>
+    <input type="checkbox" id="Mixcoac" name="Mixcoac" value="Mixcoac">
+    <label for="Mixcoac">Ajolote en Mixcoac</label>
+    <input type="number" id="Mixcoac" name="Mixcoac" maxlength="2"><br>
+
+    <input type="checkbox" id="Xochimilco" name="Xochimilco" value="Xochimilco">
+    <label for="Xochimilco">Ajolote en Xochimilco</label>
+    <input type="number" id="Xochimilco" name="Xochimilco" maxlength="2"><br>
+
+    <input type="checkbox" id="Iztapalapa" name="Iztapalapa" value="Iztapalapa">
+    <label for="Iztapalapa">Ajolote en Iztapalapa</label>
+    <input type="number" id="Iztapalapa" name="Iztapalapa" maxlength="2"><br>
+
+    <input type="checkbox" id="Reforma" name="Reforma" value="Reforma">
+    <label for="Reforma">Ajolote en Reforma</label>
+    <input type="number" id="Reforma" name="Reforma" maxlength="2"><br>
+
+    <input type="checkbox" id="Chapultepec" name="Chapultepec" value="Chapultepec">
+    <label for="Chapultepec">Ajolote en Chapultepec</label>
+    <input type="number" id="Chapultepec" name="Chapultepec" maxlength="2"><br><br>
+
+    <!-- AjoloCombos -->
+    <p class="p">¿Qué Ajolosalsa vas a llevar?</p>
+    <select class="negro" name="salsa" id="salsa">
+        <option class="negro" value="chocolate">Ajolosalsa de chocolate</option>
+        <option class="negro" value="fresa">Ajolosalsa de fresa</option>
+        <option class="negro" value="zarzamora">Ajolosalsa de zarzamora</option>
+        <option class="negro" value="lechera">Ajolosalsa de lechera</option>
+        </select> <br><br>
+        
+    <p class="p">¿Con qué deseas pagar?</p>
+    <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+    <label for="si">Tarjeta de Credito</label><br>
+    <input type="radio" id="pay" name="pago" value="pay">
+    <label for="pay">Pay Pal</label><br>
+    <input type="radio" id="tf" name="pago" value="tf">
+    <label for="tf">Transferencia Bancaria</label>
+    <br><br><br>
+    
+    <input class="boton" type="reset">
+    <a href="./gracias_cakelotl.html">
+        <input class="boton" type="button" value="Comprar" onclick="alert('Esto es una prueba no es real :D')">
+    </a>
+    <hr>
+    <br><br>
+    </form>
+    </div>
+</body>
+</html>

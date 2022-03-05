@@ -1,0 +1,70 @@
+*{
+    font-family:'Lucida Handwriting';
+    color: yellow;
+    
+}
+
+.main{
+    background-image: url('../FRONTEND/assets/img/Wallpaper.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    
+}
+
+.titulos{
+    font-family:'Thinking Of Betty';
+    font-size: 40px;
+    color:#a10f0f;
+}
+
+.P{
+    font-size: 20px;
+}
+
+.boton{
+    color: indigo;
+}
+
+.posicionTexto{
+    text-align: center;
+}
+
+.posicionImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.posicionGif{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    padding: 500px;
+    height: 150px;
+}
+
+.negro{
+    color: black;
+}
+
+.tituloCentrado{
+    font-family:'Thinking Of Betty';
+    font-size: 40px;
+    color:#a10f0f;
+    text-align: center;
+}
+
+.pc{
+    font-size: 20px;
+    text-align: center;  
+}
