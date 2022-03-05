@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Thinking Of Betty';
+    src: url('ThinkingOfBettyLight.eot');
+    src: url('ThinkingOfBettyLight.eot?#iefix') format('embedded-opentype'),
+        url('ThinkingOfBettyLight.woff2') format('woff2'),
+        url('ThinkingOfBettyLight.woff') format('woff'),
+        url('ThinkingOfBettyLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
